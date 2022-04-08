@@ -1,4 +1,4 @@
-const refs = {
+/* const refs = {
   controls: document.querySelector(`#tabs-1 [data-controls]`),
   panes: document.querySelector(`#tabs-1 [data-panes]`),
 };
@@ -34,4 +34,4 @@ function getPainId(control) {
 
 function getPainById(id) {
   return refs.panes.querySelector(`#${id}`);
-}
+} */
