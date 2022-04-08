@@ -1,4 +1,4 @@
-/* const refs = {
+const refs = {
   controls: document.querySelector(`#tabs-1 [data-controls]`),
   panes: document.querySelector(`#tabs-1 [data-panes]`),
 };
@@ -18,7 +18,6 @@ function onControlsClick(event) {
     const paneId = getPainId(currentActiveControleItem);
     const pane = getPainById(paneId);
     pane.classList.remove('pane--active');
-    
   }
 
   const controlItem = event.target;
@@ -27,7 +26,6 @@ function onControlsClick(event) {
   const paneId = getPainId(controlItem);
   const pane = getPainById(paneId);
   pane.classList.add('pane--active');
- 
 }
 
 function getPainId(control) {
@@ -36,4 +34,4 @@ function getPainId(control) {
 
 function getPainById(id) {
   return refs.panes.querySelector(`#${id}`);
-} */
+}

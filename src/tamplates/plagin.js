@@ -1,4 +1,4 @@
-class Tabs {
+/* class Tabs {
   constructor({
     rootSelector,
     activeControlClass = 'active',
@@ -85,4 +85,4 @@ const tabs1 = new Tabs({
   activePaneClass: 'pane--active',
   activeTab: 1,
 });
-console.log(tabs1);
+console.log(tabs1); */
